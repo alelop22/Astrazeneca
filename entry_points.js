@@ -10,7 +10,10 @@ const fs = require('fs');
 */
 
 const obj = {
-	index: path.join(path.resolve(__dirname, 'src/js'), 'index.js'),
+	home: path.join(path.resolve(__dirname, 'src/js'), 'home.js'),
+	chi_siamo: path.join(path.resolve(__dirname, 'src/js'), 'chi_siamo.js'),
+	contatti: path.join(path.resolve(__dirname, 'src/js'), 'contatti.js'),
+	prenota_vaccino: path.join(path.resolve(__dirname, 'src/js'), 'prenota_vaccino.js'),
 }
 
 module.exports = obj

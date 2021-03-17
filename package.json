@@ -1,7 +1,7 @@
 {
   "name": "fe-bootstrap",
   "version": "1.0.0",
-  "description": "",
+  "description": "Questo repository contiene i file minimi per la creazione di un progetto web standard basato su: npm, php e docker",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack",
@@ -39,5 +39,13 @@
     "gsap": "^2.1.3",
     "moment": "^2.24.0",
     "moment-with-locales-es6": "^1.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alelop22/Astrazeneca.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alelop22/Astrazeneca/issues"
+  },
+  "homepage": "https://github.com/alelop22/Astrazeneca#readme"
 }
